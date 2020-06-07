@@ -1,0 +1,31 @@
+@media screen and (max-width:767.98px){
+    .grid-services-container{
+        grid-template-columns:1fr 1fr;
+    }
+    .grid-testomonial-container{
+        grid-template-columns:1fr;
+    }
+}
+@media screen and (max-width:575.98px){
+    #hero h1{
+        font-size:200%;
+    }
+    .hero-text p{
+        font-size:90%;
+    }
+    .grid-services-container{
+        grid-template-columns:1fr;
+    }
+    .grid-testomonial-container{
+        grid-template-columns:1fr;
+    }
+    .grid-ppts-container {
+    grid-template-columns:1fr;
+    }
+    .grid-team-container {
+    grid-template-columns: 1fr;
+    }
+    .grid-footer-container {
+    grid-template-columns: 1fr;
+    }
+}
